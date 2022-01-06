@@ -22,7 +22,7 @@ int solution(int x1, int y1, int x2, int y2) {
 
 	for (int i = 0; i < 15; i++) {
 		for (int j = 0; j < 15; j++) {
-			//if (abs(x1 - i) < 5) v1[i][j]++;
+			if (abs(x1 - i) < 5 && abs(y1 - i) < 5) v1[i][j]++;
 		}
 	}
 
